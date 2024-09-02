@@ -19,20 +19,7 @@
 <script setup></script>
 
 <style>
-ul {
-  display: flex;
-  gap: 20px;
-}
-
-ul li {
-  list-style: none;
-}
-
-a {
-  color: black;
-}
-
 .router-link-exact-active {
-  color: blue;
+  color: #12b488;
 }
 </style>

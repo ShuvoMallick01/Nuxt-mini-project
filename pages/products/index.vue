@@ -17,6 +17,11 @@ definePageMeta({
 });
 
 const { data: products } = await useFetch("https://fakestoreapi.com/products");
+
+useHead({
+  title: "Nuxt Skyber | Products",
+  meta: [{ name: "description", content: "Skyber Products" }],
+});
 </script>
 
 <style scoped></style>

@@ -12,10 +12,13 @@
         <NuxtLink :to="`/products/${product.id}`">{{ product.title }}</NuxtLink>
       </h5>
       <p class="text-gray-500 text-[14px]">
-        {{ product.description.slice(0, 80) + "...." }}
+        {{ product.description }}
       </p>
       <p>Price: {{ product.price }}</p>
-      <button class="btn px-4">Add to Cart</button>
+      <button class="btn px-4">
+        <i class="material-icons mr-2">add_shopping_cart</i>
+        <span>Add to Cart</span>
+      </button>
     </div>
     <!-- {{ product }} -->
   </div>
